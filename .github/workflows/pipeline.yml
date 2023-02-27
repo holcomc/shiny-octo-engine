@@ -36,8 +36,8 @@ jobs:
       # Run ServiceNow CI/CD Apply Changes   
       - name: ServiceNow CI/CD Apply Changes
         # You may pin to the exact commit or the version.
-        # uses: ServiceNow/sncicd-apply-changes@d9e560381b65fc450f8dc85b084c1a6cc40e503c
-        uses: uhg-actions/sncicd-apply-changes@2.0.0
+        uses: ServiceNow/sncicd-apply-changes@d9e560381b65fc450f8dc85b084c1a6cc40e503c
+        # uses: uhg-actions/sncicd-apply-changes@2.0.0
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
